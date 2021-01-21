@@ -13,3 +13,66 @@
   font-size: 100px;
   color: white;
 }
+
+.tavolodagioco{
+  height: auto;
+  margin-left: 20%;
+  margin-right:20%;
+  /* background-color: red; */
+  position: relative;
+
+
+}
+
+.fotocarta{
+  max-width:100%;
+  background-color: white;
+  border-radius: 15px;
+  visibility: hidden;
+
+
+}
+
+.carta{
+  margin: 20px;
+  width: 150px;
+  height:180px;
+  background-image: url(img/pattern.png);
+  background-size: contain;
+  border-radius: 15px;
+  display: inline-block;
+  position: relative;
+  max-width: 150px;
+  max-height: 180px;
+
+  }
+
+.testocarta{
+  text-align: center;
+  background-color: white;
+  line-height: 40px;
+  max-width: 150px;
+  position: relative;
+  bottom: 10px;
+  color: pink;
+  visibility: hidden;
+
+
+}
+
+.carta:hover *{
+
+visibility: visible;
+
+}
+
+
+
+
+
+.pièdipagina{
+height: 100px;
+color: black;
+font-size: bold;
+text-align: center;
+}
