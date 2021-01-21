@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nerko One', cursive;
+  background-color: lightblue;
+}
+
+.nomegioco{
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
