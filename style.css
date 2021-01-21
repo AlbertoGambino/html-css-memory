@@ -60,13 +60,14 @@
 
 }
 
-.carta:hover *{
-visibility: visible;
+.tavolodagioco:nth-child(6){
+  visibility: visible;
 }
 
-
-
-
+.carta:hover *{
+visibility: visible;
+color: orange;
+}
 
 .pièdipagina{
 height: 100px;
